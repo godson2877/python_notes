@@ -23,3 +23,4 @@
 import calculator
 print(calculator.add(5, 3))  # Output: 8
 
+print(__name__)  # Output: __main__
