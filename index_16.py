@@ -59,22 +59,22 @@
 
 # encapsulation
 
-class student:
-    def __init__(self):
-        self.__marks=0
-    @property
-    def marks(self):
-        return self.__marks
+# class student:
+#     def __init__(self):
+#         self.__marks=0
+#     @property
+#     def marks(self):
+#         return self.__marks
 
-    @marks.setter
-    def marks(self,value):
-        if value<0:
-            print("invalid marks")
-        else:
-            self.__marks=value
-s=student()
-s.marks=-20
-print(s.marks)
+#     @marks.setter
+#     def marks(self,value):
+#         if value<0:
+#             print("invalid marks")
+#         else:
+#             self.__marks=value
+# s=student()
+# s.marks=-20
+# print(s.marks)
 
 
 # class student:
