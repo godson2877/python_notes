@@ -65,12 +65,12 @@
 # c.display()
 
 
-class student:
-    def __init__(self,name):
-        self.name=name
-    def introduce(self):
-        print(f"my name is {self.name}")
-s=student("rahul")
-s.introduce()
-s=student("anu")
-s.introduce()
+# class student:
+#     def __init__(self,name):
+#         self.name=name
+#     def introduce(self):
+#         print(f"my name is {self.name}")
+# s=student("rahul")
+# s.introduce()
+# s=student("anu")
+# s.introduce()
