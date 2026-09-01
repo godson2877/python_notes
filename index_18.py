@@ -20,21 +20,25 @@
 # print(d.area())
 
 
-
+# instance method 
 # class demo :
 #     def show(self):
 #         print("instance method")
 # s=demo()
 # s.show()
 
+
+# class method
 # class demo:
 #     @classmethod
 #     def info(cls):
 #         print("classmethod")
 # demo.info()
 
-class demo:
-    @staticmethod
-    def utility():
-        print("static method")
-demo.utility()
+
+# static method
+# class demo:
+#     @staticmethod
+#     def utility():
+#         print("static method")
+# demo.utility()
